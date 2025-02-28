@@ -10,7 +10,7 @@ from appium.options.common import AppiumOptions
 def launch_app(request):
         cap = {
         "appium:deviceName": "Samsung",
-        "platformName": "Android",
+        "appium:platformName": "Android",
         "appium:automationName": "UiAutomator2",
         "appium:app": "C:\\Users\\2022374\\Downloads\\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
         "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity"
